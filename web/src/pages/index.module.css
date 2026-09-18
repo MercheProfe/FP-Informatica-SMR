@@ -1,0 +1,106 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  background-color: #40566d;
+}
+
+.mainContent {
+  padding: 2.5rem 0 5rem;
+}
+
+.sectionTitle {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.subjectGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+.subjectCard {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 14px;
+
+  background: var(--ifm-background-surface-color);
+  color: var(--ifm-font-color-base);
+
+  text-decoration: none;
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.subjectCard:hover {
+  color: var(--ifm-font-color-base);
+  text-decoration: none;
+
+  transform: translateY(-5px);
+  box-shadow: var(--ifm-global-shadow-md);
+}
+
+.cardImage {
+  height: 150px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: var(--ifm-color-emphasis-100);
+}
+
+.cardImage span {
+  font-size: 4.5rem;
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
+  padding: 1.4rem;
+}
+
+.cardContent h3 {
+  color: var(--ifm-color-primary);
+  margin-bottom: 0.7rem;
+}
+
+.cardContent p {
+  flex: 1;
+  line-height: 1.5;
+}
+
+.cardLink {
+  margin-top: 1rem;
+
+  color: var(--ifm-color-primary);
+  font-weight: 600;
+}
+
+.disabledCard {
+  opacity: 0.75;
+}
+
+@media (max-width: 996px) {
+  .subjectGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .subjectGrid {
+    grid-template-columns: 1fr;
+  }
+}
