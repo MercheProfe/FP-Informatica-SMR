@@ -131,7 +131,7 @@ const config = {
       ],
     },
     {
-      title: 'Asignaturas',
+      title: 'Módulos',
       items: [
         {
           label: '🌐 Servicios en Red',

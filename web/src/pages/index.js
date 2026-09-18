@@ -7,7 +7,7 @@ import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
 
-const asignaturas = [
+const asignatura = [
   {
     titulo: 'Servicios en Red',
     icono: '🌐',
@@ -100,7 +100,7 @@ export default function Home() {
         <div className="container">
 
           <Heading as="h2" className={styles.sectionTitle}>
-            Asignaturas
+            Módulos
           </Heading>
 
           <div className={styles.subjectGrid}>
