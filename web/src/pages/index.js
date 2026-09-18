@@ -7,7 +7,7 @@ import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
 
-const asignatura = [
+const asignaturas = [
   {
     titulo: 'Servicios en Red',
     icono: '🌐',
