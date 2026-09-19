@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'FP Informática · SMR',
   tagline: 'Apuntes y recursos para Sistemas Microinformáticos y Redes',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/faviconp.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -120,48 +120,25 @@ const config = {
 },
       footer: {
   style: 'dark',
-  links: [
-    {
-      title: 'FP Informática · SMR',
-      items: [
-        {
-          label: '🏠 Inicio',
-          to: '/',
-        },
-      ],
-    },
-    {
-      title: 'Módulos',
-      items: [
-        {
-          label: '🌐 Servicios en Red',
-          to: '/',
-        },
-        {
-          label: '🌍 Aplicaciones Web',
-          to: '/',
-        },
-        {
-          label: '☕ Programación',
-          to: '/',
-        },
-        {
-          label: '🧩 Proyecto Intermodular',
-          to: '/',
-        },
-      ],
-    },
-    {
-      title: 'Recursos',
-      items: [
-        {
-          label: 'GitHub',
-          href: 'https://github.com/MercheProfe/FP-Informatica-SMR',
-        },
-      ],
-    },
-  ],
-  copyright: `© ${new Date().getFullYear()} FP Informática · SMR`,
+  links: [],
+  copyright: `
+    Apuntes de FP Informática · SMR por Mercedes Martínez ·
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+       target="_blank"
+       rel="noopener noreferrer">
+      CC BY-NC-SA 4.0
+    </a>
+    &nbsp;
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+       target="_blank"
+       rel="noopener noreferrer">
+      <img
+        src="/FP-Informatica-SMR/img/cc-by-nc-sa.png"
+        alt="Licencia Creative Commons BY-NC-SA 4.0"
+        style="height: 28px; vertical-align: middle; margin-left: 6px;"
+      />
+    </a>
+  `,
 },
     }),
 };

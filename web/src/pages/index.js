@@ -4,33 +4,34 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 import styles from './index.module.css';
 
 const asignaturas = [
   {
     titulo: 'Servicios en Red',
-    icono: '🌐',
+    imagen: 'img/modulos/servicios-en-red.png',
     descripcion: 'Redes, servicios, DHCP, DNS, servidores y administración de sistemas.',
-    enlace: '#',
+    enlace: '/',
   },
   {
     titulo: 'Aplicaciones Web',
-    icono: '🌍',
+    imagen: 'img/modulos/aplicaciones-web.png',
     descripcion: 'HTML, CSS, JavaScript y desarrollo de aplicaciones web.',
-    enlace: '#',
+    enlace: '/',
   },
   {
     titulo: 'Introducción a la Programación',
-    icono: '☕',
+    imagen: 'img/modulos/programacion.png',
     descripcion: 'Algoritmos, Java y fundamentos de programación.',
-    enlace: '#',
+    enlace: '/',
   },
   {
     titulo: 'Proyecto Intermodular',
-    icono: '🧩',
+    imagen: 'img/modulos/proyecto-intermodular.png',
     descripcion: 'Investigación, planificación, desarrollo y presentación del proyecto.',
-    enlace: '#',
+    enlace: '/',
   },
 ];
 
@@ -52,11 +53,15 @@ function HomepageHeader() {
   );
 }
 
-function TarjetaAsignatura({titulo, icono, descripcion, enlace}) {
+function TarjetaAsignatura({titulo, imagen, descripcion, enlace}) {
   const contenido = (
     <>
       <div className={styles.cardImage}>
-        <span>{icono}</span>
+        <img
+          src={useBaseUrl(imagen)}
+          alt=""
+          className={styles.moduleImage}
+        />
       </div>
 
       <div className={styles.cardContent}>
