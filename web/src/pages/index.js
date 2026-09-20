@@ -21,12 +21,13 @@ const asignaturas = [
     descripcion: 'HTML, CSS, JavaScript y desarrollo de aplicaciones web.',
     enlace: '/',
   },
-  {
-    titulo: 'Introducción a la Programación',
-    imagen: 'img/modulos/programacion.png',
-    descripcion: 'Algoritmos, Java y fundamentos de programación.',
-    enlace: '/',
-  },
+ 
+ {
+  titulo: 'Introducción a la Programación',
+  imagen: 'img/modulos/programacion.png',
+  descripcion: 'Algoritmos, Java y fundamentos de programación.',
+  enlace: '/docs/introduccion-programacion',
+},
   {
     titulo: 'Proyecto Intermodular',
     imagen: 'img/modulos/proyecto-intermodular.png',

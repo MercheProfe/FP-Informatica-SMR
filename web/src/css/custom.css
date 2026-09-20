@@ -26,3 +26,290 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+/* =========================================================
+   APUNTES FP · SISTEMA VISUAL COMÚN
+   ========================================================= */
+
+
+/* ---------------------------------------------------------
+   1. CABECERAS E IMÁGENES PRINCIPALES
+   --------------------------------------------------------- */
+
+.module-lead,
+.unit-lead {
+  font-size: 1.15rem;
+  color: var(--ifm-color-emphasis-700);
+  margin-top: -0.4rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.module-hero,
+.unit-hero {
+  display: block;
+  width: 100%;
+  max-height: 480px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin: 1rem 0 2rem;
+}
+
+
+/* ---------------------------------------------------------
+   2. SUBAPARTADOS CON VIÑETA DE COLOR
+   --------------------------------------------------------- */
+
+/*.subapartado {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin-top: 1.6rem;
+  margin-bottom: 0.8rem;
+}
+
+.subapartado::before {
+  content: "●";
+  color: var(--ifm-color-primary);
+  font-size: 0.7em;
+  flex-shrink: 0;
+}
+
+
+/* ---------------------------------------------------------
+   3. CUADRÍCULAS DE TARJETAS
+   --------------------------------------------------------- */
+
+.unit-grid,
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0 2.5rem;
+}
+
+
+/* ---------------------------------------------------------
+   4. TARJETAS DE CONTENIDO / UNIDADES
+   --------------------------------------------------------- */
+
+.unit-card,
+.content-card {
+  padding: 1.1rem;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-top: 4px solid var(--card-accent, var(--ifm-color-primary));
+  border-radius: 10px;
+  background: var(--ifm-background-surface-color);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.unit-card h3,
+.content-card h3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.4rem;
+  font-size: 1rem;
+}
+
+.unit-card p,
+.content-card p {
+  margin-bottom: 0;
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+
+/* ---------------------------------------------------------
+   5. NÚMEROS / ETIQUETAS DE TARJETAS
+   --------------------------------------------------------- */
+
+.unit-number,
+.card-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 30px;
+  height: 30px;
+  padding: 0 8px;
+  border-radius: 6px;
+  background: var(--card-accent, var(--ifm-color-primary));
+  color: #fff;
+  font-weight: 700;
+  line-height: 1;
+}
+
+
+/* ---------------------------------------------------------
+   6. PALETA DE ACENTOS
+   Se puede aplicar a cualquier tarjeta.
+   --------------------------------------------------------- */
+
+.accent-blue {
+  --card-accent: #4199e8;
+}
+
+.accent-green {
+  --card-accent: #2fb67c;
+}
+
+.accent-orange {
+  --card-accent: #f59e2f;
+}
+
+.accent-red {
+  --card-accent: #ef5b4c;
+}
+
+.accent-pink {
+  --card-accent: #d9366e;
+}
+
+.accent-purple {
+  --card-accent: #8054d6;
+}
+
+.accent-cyan {
+  --card-accent: #1aa4ae;
+}
+
+
+/* ---------------------------------------------------------
+   7. TARJETAS DE TECNOLOGÍAS / HERRAMIENTAS
+   --------------------------------------------------------- */
+
+.tools-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.tool-card {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  padding: 1.25rem;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 10px;
+  background: var(--ifm-background-surface-color);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+}
+
+.tool-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.tool-card p:last-child,
+.tool-card ul:last-child {
+  margin-bottom: 0;
+}
+
+.tool-logo {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+
+/* ---------------------------------------------------------
+   8. TARJETA SIMPLE DESTACADA
+   Para conceptos, ejemplos, recursos, etc.
+   --------------------------------------------------------- */
+
+.info-card {
+  padding: 1.25rem 1.4rem;
+  margin: 1.25rem 0;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-left: 4px solid var(--ifm-color-primary);
+  border-radius: 8px;
+  background: var(--ifm-background-surface-color);
+}
+
+.info-card > :last-child {
+  margin-bottom: 0;
+}
+
+
+/* ---------------------------------------------------------
+   9. IMÁGENES DENTRO DE LOS APUNTES
+   --------------------------------------------------------- */
+
+.content-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1.5rem auto;
+  border-radius: 8px;
+}
+
+.content-image-small {
+  display: block;
+  max-width: 550px;
+  width: 100%;
+  height: auto;
+  margin: 1.5rem auto;
+  border-radius: 8px;
+}
+
+
+/* ---------------------------------------------------------
+   10. PIE / ENLACE A LA SIGUIENTE UNIDAD
+   --------------------------------------------------------- */
+
+.next-unit {
+  margin-top: 3rem;
+  padding: 1.25rem 1.5rem;
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+  background: var(--ifm-color-emphasis-100);
+  border-radius: 8px;
+}
+
+
+/* ---------------------------------------------------------
+   11. MODO OSCURO
+   --------------------------------------------------------- */
+
+[data-theme='dark'] .unit-card,
+[data-theme='dark'] .content-card,
+[data-theme='dark'] .tool-card,
+[data-theme='dark'] .info-card {
+  box-shadow: none;
+}
+
+
+/* ---------------------------------------------------------
+   12. RESPONSIVE
+   --------------------------------------------------------- */
+
+@media (max-width: 996px) {
+  .unit-grid,
+  .card-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .tools-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .unit-grid,
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .module-hero,
+  .unit-hero {
+    border-radius: 6px;
+  }
+
+  .tool-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .tool-logo {
+    width: 70px;
+    height: 70px;
+  }
+}

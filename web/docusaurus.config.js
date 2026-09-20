@@ -82,27 +82,30 @@ const config = {
       colorMode: {
         respectPrefersColorScheme: true,
       },
-      navbar: {
+     navbar: {
   title: 'FP Informática · SMR',
 
   items: [
     {
       type: 'docSidebar',
-      sidebarId: 'tutorialSidebar',
+      sidebarId: 'serSidebar',
       position: 'left',
       label: 'SER',
     },
 
-    {
+    
+     {
       to: '/',
-      label: 'Aplicaciones Web',
+      label: 'AplicacionesWeb',
       position: 'left',
     },
+    
 
     {
-      to: '/',
-      label: 'Programación',
+      type: 'docSidebar',
+      sidebarId: 'programacionSidebar',
       position: 'left',
+      label: 'Programación',
     },
 
     {
