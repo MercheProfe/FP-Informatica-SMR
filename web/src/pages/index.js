@@ -13,7 +13,7 @@ const asignaturas = [
     titulo: 'Servicios en Red',
     imagen: 'img/modulos/servicios-en-red.png',
     descripcion: 'Redes, servicios, DHCP, DNS, servidores y administración de sistemas.',
-    enlace: '/',
+    enlace: '/docs/ser/ud0-repaso-redes',
   },
   {
     titulo: 'Aplicaciones Web',
