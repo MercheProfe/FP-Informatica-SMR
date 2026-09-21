@@ -113,6 +113,17 @@ const config = {
       label: 'Proyecto',
       position: 'left',
     },
+    {
+  type: 'dropdown',
+  label: 'Classroom',
+  position: 'right',
+  items: [
+    {
+      label: 'Servicios en Red',
+      href: 'https://classroom.google.com/u/6/c/MjUzNjgxMjc2OTla',
+    },
+  ],
+},
 
     //{
     //  href: 'https://github.com/MercheProfe/FP-Informatica-SMR',

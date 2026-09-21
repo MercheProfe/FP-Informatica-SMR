@@ -102,5 +102,17 @@ Para comprender qué estamos haciendo necesitaremos responder preguntas como:
 Comenzamos repasando qué es una red, las diferencias entre **LAN y WAN**, los **protocolos** y las principales **topologías de red**.
 :::
 
+## Aula virtual
+
+Las actividades, entregas y avisos del módulo se gestionarán a través de Google Classroom.
+
+:::tip[Google Classroom]
+
+Accede al aula virtual de **Servicios en Red** para consultar las actividades, materiales complementarios y realizar las entregas.
+
+[Acceder a Google Classroom →](https://classroom.google.com/u/6/c/MjUzNjgxMjc2OTla)
+
+:::
+
 [Comenzar: 1. Conceptos básicos de redes →](/docs/ser/ud0-repaso-redes/conceptos-basicos-redes)
 
