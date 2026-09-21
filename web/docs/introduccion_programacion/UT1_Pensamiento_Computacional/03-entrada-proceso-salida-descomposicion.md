@@ -55,11 +55,11 @@ Un cliente compra:
 -   teclado: **25 €**
 -   ratón: **15 €**
 
-  Elemento      Valor
-  ------------- ---------
-  **Entrada**   25 y 15
-  **Proceso**   25 + 15
-  **Salida**    40 €
+  | Elemento | Valor |
+|---|---|
+| **Entrada** | 25 y 15 |
+| **Proceso** | 25 + 15 |
+| **Salida** | 40 € |
 
 ### 🟦 Actividad 2.1 · Identifica EPS
 
@@ -82,11 +82,11 @@ Completa:
 > **Problema:** calcular cuánto cuesta sustituir cinco discos SSD si
 > cada uno cuesta 49 €.
 >
-  Elemento   Respuesta
-  ---------- -----------
-  Entrada    
-  Proceso    
-  Salida     
+  | Elemento | Respuesta |
+|---|---|
+| **Entrada** |  |
+| **Proceso** |  |
+| **Salida** |  |
 
 ### 🟧 Actividad 2.3 · Diseña el problema
 

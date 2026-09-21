@@ -34,21 +34,20 @@ diseñar una solución**.
 Durante todo el curso construiremos progresivamente un pequeño sistema
 de gestión para un servicio técnico informático.
 
-Cada unidad añadirá nuevas capacidades.
+Cada unidad añadirá nuevas capacidades al proyecto:
 
-  Unidad     Evolución de TechFix
-  ---------- ---------------------------------------
-  **UD1**    Diseñamos cómo resolver los problemas
-  **UD2**    Creamos nuestros primeros programas
-  **UD3**    Permitimos introducir datos
-  **UD4**    El programa toma decisiones
-  **UD5**    Creamos menús y repetimos operaciones
-  **UD6**    Organizamos el programa en métodos
-  **UD7**    Gestionamos conjuntos de equipos
-  **UD8**    Creamos un inventario dinámico
-  **UD9**    Guardamos los datos en ficheros
-  **UD10**   Construimos la aplicación completa
-
+| Unidad | Evolución de TechFix |
+|:---:|---|
+| **UD1** | Diseñamos cómo resolver los problemas. |
+| **UD2** | Creamos nuestros primeros programas. |
+| **UD3** | Permitimos introducir datos. |
+| **UD4** | El programa toma decisiones. |
+| **UD5** | Creamos menús y repetimos operaciones. |
+| **UD6** | Organizamos el programa en métodos. |
+| **UD7** | Gestionamos conjuntos de equipos. |
+| **UD8** | Creamos un inventario dinámico. |
+| **UD9** | Guardamos los datos en ficheros. |
+| **UD10** | Construimos la aplicación completa. |
 :::note[TechFix]
 No intentaremos construir toda la aplicación desde el principio. La
 iremos desarrollando paso a paso a medida que aprendamos nuevos

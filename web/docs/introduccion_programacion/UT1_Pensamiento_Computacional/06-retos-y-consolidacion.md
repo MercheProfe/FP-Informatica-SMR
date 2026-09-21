@@ -126,28 +126,17 @@ Por cada reto debes entregar:
 
 ### 🟩 ¿Qué hemos aprendido?
 
-  -----------------------------------------------------------------------
-  Concepto                            Significado
-  ----------------------------------- -----------------------------------
-  **Programar**                       Resolver problemas utilizando
-                                      instrucciones que puede ejecutar un
-                                      ordenador.
-
-  **Problema**                        Situación que queremos resolver.
-
-  **Algoritmo**                       Conjunto ordenado de instrucciones
-                                      para resolver un problema.
-
-  **Programa**                        Algoritmo escrito en un lenguaje
-                                      que puede ejecutar un ordenador.
-
-  **Entrada**                         Datos que recibe el programa.
-
-  **Proceso**                         Operaciones realizadas con esos
-                                      datos.
-
-  **Salida**                          Resultado obtenido.
-  -----------------------------------------------------------------------
+ | Concepto | Significado |
+|---|---|
+| **Programar** | Resolver problemas utilizando instrucciones que puede ejecutar un ordenador. |
+| **Problema** | Situación que queremos resolver. |
+| **Algoritmo** | Conjunto ordenado de instrucciones para resolver un problema. |
+| **Programa** | Algoritmo escrito en un lenguaje que puede ejecutar un ordenador. |
+| **Entrada** | Datos que recibe el programa. |
+| **Proceso** | Operaciones realizadas con esos datos. |
+| **Salida** | Resultado producido por el programa. |
+| **Pseudocódigo** | Forma sencilla de representar un algoritmo antes de escribirlo en un lenguaje de programación. |
+| **Traza** | Simulación paso a paso de la ejecución de un algoritmo. |
 
 ### 🟧 El esquema fundamental
 

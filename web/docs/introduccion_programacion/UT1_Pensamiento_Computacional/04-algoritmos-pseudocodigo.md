@@ -13,20 +13,11 @@ Ahora debemos describir los pasos necesarios para resolver el problema.
 
 ### 🟩 ¿Cómo debe ser un buen algoritmo?
 
-  -----------------------------------------------------------------------
-  Característica                      Significado
-  ----------------------------------- -----------------------------------
-  **Ordenado**                        Las instrucciones deben ejecutarse
-                                      en un orden lógico.
-
-  **Preciso**                         Debe quedar claro qué significa
-                                      cada paso.
-
-  **Finito**                          Tiene que terminar.
-
-  **Comprensible**                    Otra persona debería ser capaz de
-                                      ejecutarlo.
-  -----------------------------------------------------------------------
+  | Característica | Significado |
+|---|---|
+| **Ordenado** | Las instrucciones deben ejecutarse en un orden lógico. |
+| **Preciso** | Debe quedar claro qué significa cada paso. |
+| **Finito** | Tiene que terminar. |
 
 ### 🟧 Ejemplo
 

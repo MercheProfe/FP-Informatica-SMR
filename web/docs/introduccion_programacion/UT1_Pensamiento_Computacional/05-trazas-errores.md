@@ -38,13 +38,13 @@ cantidad = 4
 
 Seguimos la ejecución paso a paso:
 
-  Paso              precio   cantidad   total
-  --------------- -------- ---------- -------
-  Inicio                \-         \-      \-
-  LEER precio           25         \-      \-
-  LEER cantidad         25          4      \-
-  calcular              25          4     100
-  ESCRIBIR              25          4     100
+| Paso | precio | cantidad | total |
+|---|---:|---:|---:|
+| Inicio | — | — | — |
+| `LEER precio` | 25 | — | — |
+| `LEER cantidad` | 25 | 4 | — |
+| Calcular | 25 | 4 | 100 |
+| `ESCRIBIR total` | 25 | 4 | 100 |
 
 **Salida: 100 €**
 
@@ -76,11 +76,11 @@ Resultado esperado: **325 GB**.
 
 Ejecuta el mismo algoritmo utilizando:
 
-  Caso     capacidad   usado
-  ------ ----------- -------
-  1              500     200
-  2             2000    1850
-  3              128     128
+| Caso | capacidad |
+|:---:|---:|
+| **1** | 500 |
+| **2** | 2000 |
+| **3** | 128 |
 
 ## 9️⃣ Los errores también forman parte de programar
 
