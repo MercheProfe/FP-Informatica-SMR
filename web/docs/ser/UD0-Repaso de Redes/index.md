@@ -26,8 +26,7 @@ Durante esta unidad trabajaremos los siguientes contenidos:
 
 LAN, WAN, protocolos y topologías de red.
 
-[Ir al apartado 1 →](./01-conceptos-basicos-redes)
-
+[Ir al apartado 1 →](/docs/ser/ud0-repaso-redes/conceptos-basicos-redes)
 ### ■ 2. Dispositivos de red
 
 Tarjeta de red, switch, router y punto de acceso.
@@ -103,4 +102,5 @@ Para comprender qué estamos haciendo necesitaremos responder preguntas como:
 Comenzamos repasando qué es una red, las diferencias entre **LAN y WAN**, los **protocolos** y las principales **topologías de red**.
 :::
 
-[Comenzar: 1. Conceptos básicos de redes →](./01-conceptos-basicos-redes)
+[Comenzar: 1. Conceptos básicos de redes →](/docs/ser/ud0-repaso-redes/conceptos-basicos-redes)
+
