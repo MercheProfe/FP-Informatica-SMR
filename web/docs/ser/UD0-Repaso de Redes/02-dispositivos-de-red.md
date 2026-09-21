@@ -551,19 +551,11 @@ ipconfig /all
 Localiza los adaptadores Ethernet. Después repite el comando en
 `SER-Cliente`.
 
-De momento **no modificaremos nada**. Anota para cada adaptador:
-
-  ----------------------------------------------------------------------------
-  Máquina          Adaptador      Dirección IPv4 Dirección      Gateway
-|  |  |  | física (MAC) |  |
+| Máquina | Adaptador | Dirección IPv4 | Dirección física (MAC) | Gateway |
 | --- | --- | --- | --- | --- |
 | `SER-Servidor` | NIC 1 |  |  |  |
-
-  `SER-Servidor`   NIC 2, si                                    
-                   existe                                       
-
-  `SER-Cliente`    NIC 1                                        
-  ----------------------------------------------------------------------------
+| `SER-Servidor` | NIC 2, si existe |  |  |  |
+| `SER-Cliente` | NIC 1 |  |  |  |
 
 Finalmente, entra en **VirtualBox → Configuración → Red** de cada
 máquina y relaciona lo que estás viendo:
