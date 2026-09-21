@@ -94,10 +94,11 @@ const config = {
     },
 
     
-     {
-      to: '/',
-      label: 'AplicacionesWeb',
+      {
+      type: 'docSidebar',
+      sidebarId: 'aplicacionesWebSidebar',
       position: 'left',
+      label: 'Aplicaciones Web',
     },
     
 
@@ -121,6 +122,10 @@ const config = {
     {
       label: 'Servicios en Red',
       href: 'https://classroom.google.com/u/6/c/MjUzNjgxMjc2OTla',
+    },
+    {
+      label: 'Aplicaciones Web',
+      href: 'https://classroom.google.com/c/MTYyNjg3NzEzNDUz',
     },
   ],
 },

@@ -1,0 +1,8 @@
+{
+  "label": "UT1 · Internet y arquitectura cliente-servidor",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Introducción al funcionamiento de Internet y al modelo de arquitectura cliente-servidor utilizado en las aplicaciones web."
+  }
+}

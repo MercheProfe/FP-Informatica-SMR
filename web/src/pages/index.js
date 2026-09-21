@@ -16,11 +16,11 @@ const asignaturas = [
     enlace: '/docs/ser/ud0-repaso-redes',
   },
   {
-    titulo: 'Aplicaciones Web',
-    imagen: 'img/modulos/aplicaciones-web.png',
-    descripcion: 'HTML, CSS, JavaScript y desarrollo de aplicaciones web.',
-    enlace: '/',
-  },
+  titulo: 'Aplicaciones Web',
+  imagen: 'img/modulos/aplicaciones-web.png',
+  descripcion: 'HTML, CSS, JavaScript y desarrollo de aplicaciones web.',
+  enlace: '/docs/aplicaciones_web/introduccion',
+},
  
  {
   titulo: 'Introducción a la Programación',
