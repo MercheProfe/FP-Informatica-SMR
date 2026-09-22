@@ -28,12 +28,12 @@ const asignaturas = [
   descripcion: 'Algoritmos, Java y fundamentos de programación.',
   enlace: '/docs/introduccion-programacion',
 },
-  {
-    titulo: 'Proyecto Intermodular',
-    imagen: 'img/modulos/proyecto-intermodular.png',
-    descripcion: 'Investigación, planificación, desarrollo y presentación del proyecto.',
-    enlace: '/',
-  },
+ {
+  titulo: 'Proyecto Intermodular',
+  imagen: 'img/modulos/proyecto-intermodular.png',
+  descripcion: 'Investigación, planificación, desarrollo y presentación del proyecto.',
+  enlace: '/docs/proyectoIntermodular/introduccion',
+},
 ];
 
 function HomepageHeader() {

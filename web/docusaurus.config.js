@@ -110,10 +110,11 @@ const config = {
     },
 
     {
-      to: '/',
-      label: 'Proyecto',
-      position: 'left',
-    },
+  type: 'docSidebar',
+  sidebarId: 'proyectoSidebar',
+  position: 'left',
+  label: 'Proyecto',
+},
     {
   type: 'dropdown',
   label: 'Classroom',
@@ -125,6 +126,14 @@ const config = {
     },
     {
       label: 'Aplicaciones Web',
+      href: 'https://classroom.google.com/c/MTYyNjg3NzEzNDUz',
+    },
+    {
+      label: 'Introducción a la Programación',
+      href: 'https://classroom.google.com/c/MTYyNzA1ODIzNzYw',
+    },
+    {
+      label: 'Proyecto Intermodular',
       href: 'https://classroom.google.com/c/MTYyNjg3NzEzNDUz',
     },
   ],
