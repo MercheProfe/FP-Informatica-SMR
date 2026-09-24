@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-title: Problemas, algoritmos y programas
+title: "1.1. Problemas, algoritmos y programas"
 ---
 
 ## 3️⃣ ¿Qué significa programar?

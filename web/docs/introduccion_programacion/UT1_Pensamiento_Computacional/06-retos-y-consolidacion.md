@@ -1,6 +1,6 @@
 ---
 sidebar_position: 6
-title: Retos y consolidación
+title: "1.5. Retos y consolidación"
 ---
 
 ## 🔟 Reto guiado · El primer problema de TechFix

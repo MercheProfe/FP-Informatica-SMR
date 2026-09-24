@@ -1,0 +1,8 @@
+{
+  "label": "UT2 · Programas y entornos de desarrollo",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Qué es un programa, cómo funciona Java y preparación del entorno de desarrollo con JDK 21 y Visual Studio Code."
+  }
+}

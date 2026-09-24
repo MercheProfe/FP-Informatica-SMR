@@ -1,6 +1,6 @@
 ---
 sidebar_position: 4
-title: Diseño de algoritmos y pseudocódigo
+title: "1.3. Diseño de algoritmos y pseudocódigo"
 ---
 
 ## 6️⃣ Diseñar algoritmos

@@ -1,6 +1,6 @@
 ---
 sidebar_position: 5
-title: Trazas y detección de errores
+title: "1.4. Trazas y detección de errores"
 ---
 
 ## 8️⃣ Simular la ejecución de un algoritmo

@@ -1,6 +1,6 @@
 ---
 sidebar_position: 3
-title: Entrada, proceso, salida y descomposición
+title: "1.2. Entrada, proceso, salida y descomposición"
 ---
 
 ## 4️⃣ Entrada → Proceso → Salida
