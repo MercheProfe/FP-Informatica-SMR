@@ -1,6 +1,6 @@
 ---
 sidebar_position: 3
-sidebar_label: "3. Modelo TCP/IP"
+sidebar_label: "0.3. Modelo TCP/IP"
 title:  "Modelo TCP/IP: capas y protocolos"
 ---
 

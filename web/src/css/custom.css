@@ -313,3 +313,43 @@
     height: 70px;
   }
 }
+/* =========================================================
+   SOLUCIONES DE LAS PRÁCTICAS
+   ========================================================= */
+
+.solucion > .menu__link,
+.menu__link.solucion {
+  color: #8e44ad;
+  font-weight: 600;
+}
+
+/* Etiqueta SOL */
+.solucion > .menu__link::before,
+.menu__link.solucion::before {
+  content: "SOL";
+  display: inline-block;
+  flex-shrink: 0;
+
+  font-size: 0.62rem;
+  font-weight: 700;
+  line-height: 1;
+
+  padding: 3px 4px;
+  margin-right: 6px;
+
+  border: 1px solid currentColor;
+  border-radius: 4px;
+}
+
+/* Hover */
+.solucion > .menu__link:hover,
+.menu__link.solucion:hover {
+  color: #6c3483;
+}
+
+/* Solución seleccionada */
+.solucion > .menu__link.menu__link--active,
+.menu__link.solucion.menu__link--active {
+  color: #6c3483;
+  background-color: rgba(142, 68, 173, 0.12);
+}

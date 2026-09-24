@@ -1,6 +1,6 @@
 ---
-sidebar_position: 6
-title: "Práctica guiada: configuración IPv4 con Packet Tracer"
+sidebar_position: 8
+title: "    Práctica guiada: configuración IPv4 con Packet Tracer"
 ---
 
 # Práctica guiada: configuración IPv4 con Packet Tracer

@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-sidebar_label: "1. Conceptos básicos de redes"
+sidebar_label: "0.1. Conceptos básicos de redes"
 title: "Conceptos básicos de redes: LAN, WAN, protocolos y topologías"
 slug: /ser/ud0-repaso-redes/conceptos-basicos-redes
 ---

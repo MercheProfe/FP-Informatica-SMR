@@ -1,6 +1,6 @@
 ---
-sidebar_position: 6
-title: "6. Máscara de red y notación CIDR"
+sidebar_position: 10
+title: "0.6. Máscara de red y notación CIDR"
 ---
 
 # Máscara de red y notación CIDR

@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-sidebar_label: "2. Dispositivos de Red"
+sidebar_label: "0.2. Dispositivos de Red"
 title: "Dispositivos de red: NIC, switch, router y punto de acceso"
 ---
 

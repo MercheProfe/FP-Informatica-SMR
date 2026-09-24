@@ -1,6 +1,6 @@
 ---
 sidebar_position: 4
-title: "4. Direcciones MAC y protocolo ARP"
+title: "0.4. Direcciones MAC y protocolo ARP"
 ---
 
 # Direcciones MAC y protocolo ARP

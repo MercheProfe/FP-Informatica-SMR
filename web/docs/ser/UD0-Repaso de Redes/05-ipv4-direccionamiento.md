@@ -1,6 +1,6 @@
 ---
-sidebar_position: 5
-title: "5. IPv4: direccionamiento de los equipos"
+sidebar_position: 7
+title: "0.5. IPv4: direccionamiento de los equipos"
 ---
 
 # IPv4: direccionamiento de los equipos

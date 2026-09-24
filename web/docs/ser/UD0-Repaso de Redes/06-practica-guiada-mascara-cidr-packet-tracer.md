@@ -1,6 +1,6 @@
 ---
-sidebar_position: 7
-title: "Práctica guiada: máscara y CIDR con Packet Tracer"
+sidebar_position: 11
+title: "    Práctica guiada: máscara y CIDR con Packet Tracer"
 ---
 
 # Práctica guiada: máscara y CIDR con Packet Tracer

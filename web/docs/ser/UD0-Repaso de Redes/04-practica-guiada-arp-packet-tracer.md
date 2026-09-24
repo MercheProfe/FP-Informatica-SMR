@@ -1,6 +1,6 @@
 ---
 sidebar_position: 5
-title: "Práctica guiada: ARP y tabla MAC con Packet Tracer"
+title: "   Práctica guiada: ARP y tabla MAC con Packet Tracer"
 ---
 
 # Práctica guiada: ARP y tabla MAC con Packet Tracer
