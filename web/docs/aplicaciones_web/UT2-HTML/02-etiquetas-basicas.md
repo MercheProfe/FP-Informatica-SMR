@@ -905,11 +905,22 @@ Puedes consultar un listado de entidades HTML y una muestra de emojis Unicode cu
 
 La siguiente imagen resume de forma gráfica la mayoría de las etiquetas estudiadas en esta sección.
 
-<img
-  src="/FP-Informatica-SMR/img/aplicaciones-web/ut2/etiquetas-basicas/resumen-etiquetas-html.png"
-  alt="Resumen gráfico de las principales etiquetas HTML estudiadas"
-  className="unit-hero"
-/>
+<a
+  href="/FP-Informatica-SMR/img/aplicaciones-web/ut2/etiquetas-basicas/resumen-etiquetas-html.png"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <img
+    src="/FP-Informatica-SMR/img/aplicaciones-web/ut2/etiquetas-basicas/resumen-etiquetas-html.png"
+    alt="Resumen gráfico de las principales etiquetas HTML estudiadas"
+    style={{
+      width: '100%',
+      height: 'auto',
+      maxHeight: 'none',
+      objectFit: 'contain'
+    }}
+  />
+</a>
 
 :::info[Fuente de la imagen]
 La imagen está extraída de la página web **Interneting Is Hard**, una página de referencia para comenzar el aprendizaje de HTML y CSS.
