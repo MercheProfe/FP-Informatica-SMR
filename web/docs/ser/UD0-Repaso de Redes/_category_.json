@@ -1,8 +1,8 @@
 {
-  "label": "UD0 · Repaso de Redes",
+  "label": "UT0 · Repaso de Redes",
   "position": 1,
   "collapsible": true,
-  "collapsed": false,
+  "collapsed": true,
   "link": {
     "type": "doc",
     "id": "ser/UD0-Repaso de Redes/index"
