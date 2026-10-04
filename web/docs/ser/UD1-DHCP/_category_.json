@@ -2,7 +2,7 @@
   "label": "UT1 · Serv. Configuración Dinámica (DHCP)",
   "position": 2,
   "collapsible": true,
-  "collapsed": false,
+  "collapsed": true,
   "link": {
     "type": "doc",
     "id": "ser/UD1-DHCP/introduccion-dhcp"
