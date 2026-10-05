@@ -3,11 +3,33 @@ sidebar_position: 10
 title: "Actividades prácticas"
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 # Actividades prácticas
 
 En esta sección pondremos en práctica los contenidos de la UT3 mediante pequeños programas Java.
 
 Las actividades están organizadas de forma **progresiva**. Al principio encontrarás más indicaciones y pistas. Conforme avances tendrás que decidir por ti mismo qué variables, tipos de datos y operaciones necesitas.
+
+:::warning[Nombre del archivo Java]
+
+En Java, cuando una clase se declara como `public`, **el nombre del archivo debe coincidir exactamente con el nombre de la clase**, respetando también mayúsculas y minúsculas.
+
+Por ejemplo:
+
+```java
+public class Actividad01SalidaDatos {
+```
+
+debe guardarse como:
+
+```text
+Actividad01SalidaDatos.java
+```
+
+Por este motivo, los archivos descargables de esta unidad utilizan exactamente el mismo nombre que su clase principal.
+
+:::
 
 :::info[Cómo trabajar]
 
@@ -15,97 +37,191 @@ Las actividades están organizadas de forma **progresiva**. Al principio encontr
 2. Guárdalo en tu carpeta de trabajo.
 3. Ábrelo con Visual Studio Code.
 4. Lee con atención los comentarios.
-5. Completa únicamente las zonas indicadas.
-6. Ejecuta el programa.
-7. Comprueba que los resultados tienen sentido.
-8. Modifica algunos valores y vuelve a ejecutarlo.
+5. Completa las partes indicadas.
+6. Ejecuta el programa y comprueba los resultados.
+7. Modifica algunos valores y vuelve a ejecutarlo.
 
 No se trata solo de conseguir que el programa compile: debes entender qué hace cada instrucción.
 
 :::
 
+## Nombres de archivos y clases
+
+| Actividad | Clase `public` | Nombre del archivo |
+| --- | --- | --- |
+| Salida de datos | `Actividad01SalidaDatos` | `Actividad01SalidaDatos.java` |
+| Variables y primeros tipos de datos | `Actividad02VariablesTipos` | `Actividad02VariablesTipos.java` |
+| Elegir los tipos de datos | `Actividad03EligeTipos` | `Actividad03EligeTipos.java` |
+| Operadores y expresiones | `Actividad04Operadores` | `Actividad04Operadores.java` |
+| Viaje en coche | `Actividad05ViajeCoche` | `Actividad05ViajeCoche.java` |
+| Conversiones y división entera | `Actividad06Conversiones` | `Actividad06Conversiones.java` |
+| Cadenas de texto | `Actividad07CadenasTexto` | `Actividad07CadenasTexto.java` |
+| Presupuesto para un festival | `Actividad08Festival` | `Actividad08Festival.java` |
+| Taller de reparación | `Actividad09TallerReparacion` | `Actividad09TallerReparacion.java` |
+| Reto final: mi presupuesto | `Actividad10RetoPresupuesto` | `Actividad10RetoPresupuesto.java` |
+
 ## 1️⃣ Salida de datos
 
-Primer contacto con `System.out.print()` y `System.out.println()`.
+Primer contacto con `System.out.print()` y `System.out.println()`. Incluye varias actividades cortas de presentación, eventos, coches y salida formateada.
 
-El archivo contiene varias actividades cortas: presentación, cartel de un evento, ficha de un coche y uso de saltos de línea y tabulaciones.
+**Clase principal:** `Actividad01SalidaDatos`  
+**Archivo:** `Actividad01SalidaDatos.java`
 
-[Descargar `01_SalidaDatos.java`](pathname:///java/ut3/01_SalidaDatos.java)
+<a
+  className="button button--primary"
+  href={useBaseUrl('/java/ut3/Actividad01SalidaDatos.java')}
+  download="Actividad01SalidaDatos.java"
+>
+  Descargar actividad
+</a>
+
 
 ## 2️⃣ Variables y primeros tipos de datos
 
-Comenzaremos creando variables relacionadas con situaciones cercanas: un perfil, un coche y una sesión de gimnasio.
+Variables y tipos básicos. Al principio se ofrecen pistas sobre `String`, `int`, `double` y `boolean`; después tendrás que empezar a elegirlos.
 
-En las primeras actividades se indica qué tipo de dato puede utilizarse. Después tendrás que elegirlo tú.
+**Clase principal:** `Actividad02VariablesTipos`  
+**Archivo:** `Actividad02VariablesTipos.java`
 
-[Descargar `02_VariablesTipos.java`](pathname:///java/ut3/02_VariablesTipos.java)
+<a
+  className="button button--primary"
+  href={useBaseUrl('/java/ut3/Actividad02VariablesTipos.java')}
+  download="Actividad02VariablesTipos.java"
+>
+  Descargar actividad
+</a>
+
 
 ## 3️⃣ Elegir los tipos de datos
 
-En estas actividades ya tendrás que analizar qué información quieres almacenar y decidir qué tipo de dato es el más adecuado.
+Elección razonada de tipos de datos en contextos de festivales, videojuegos y equipos informáticos.
 
-Trabajaremos con un festival, un videojuego y un equipo informático.
+**Clase principal:** `Actividad03EligeTipos`  
+**Archivo:** `Actividad03EligeTipos.java`
 
-[Descargar `03_EligeTipos.java`](pathname:///java/ut3/03_EligeTipos.java)
+<a
+  className="button button--primary"
+  href={useBaseUrl('/java/ut3/Actividad03EligeTipos.java')}
+  download="Actividad03EligeTipos.java"
+>
+  Descargar actividad
+</a>
+
 
 ## 4️⃣ Operadores y expresiones
 
-Utilizaremos variables para realizar cálculos en situaciones reales: gimnasio, una salida con amigos y compras.
+Cálculos relacionados con gimnasio, planes con amigos, compras y actualización de valores.
 
-[Descargar `04_Operadores.java`](pathname:///java/ut3/04_Operadores.java)
+**Clase principal:** `Actividad04Operadores`  
+**Archivo:** `Actividad04Operadores.java`
+
+<a
+  className="button button--primary"
+  href={useBaseUrl('/java/ut3/Actividad04Operadores.java')}
+  download="Actividad04Operadores.java"
+>
+  Descargar actividad
+</a>
+
 
 ## 5️⃣ Viaje en coche
 
-Calcularemos el combustible necesario, el coste de un viaje y cuánto tendría que pagar cada persona.
+Cálculo del combustible necesario, coste del viaje y reparto del gasto entre varias personas.
 
-Aquí tendrás que construir expresiones con varios datos y comprobar si el resultado obtenido tiene sentido.
+**Clase principal:** `Actividad05ViajeCoche`  
+**Archivo:** `Actividad05ViajeCoche.java`
 
-[Descargar `05_ViajeCoche.java`](pathname:///java/ut3/05_ViajeCoche.java)
+<a
+  className="button button--primary"
+  href={useBaseUrl('/java/ut3/Actividad05ViajeCoche.java')}
+  download="Actividad05ViajeCoche.java"
+>
+  Descargar actividad
+</a>
+
 
 ## 6️⃣ Conversiones y división entera
 
-Veremos situaciones en las que el tipo de los datos modifica el resultado: medias, reparto de gastos y estadísticas de videojuegos.
+Casting, división entera, medias, reparto de gastos y porcentajes.
 
-[Descargar `06_Conversiones.java`](pathname:///java/ut3/06_Conversiones.java)
+**Clase principal:** `Actividad06Conversiones`  
+**Archivo:** `Actividad06Conversiones.java`
+
+<a
+  className="button button--primary"
+  href={useBaseUrl('/java/ut3/Actividad06Conversiones.java')}
+  download="Actividad06Conversiones.java"
+>
+  Descargar actividad
+</a>
+
 
 ## 7️⃣ Cadenas de texto
 
-Construiremos mensajes combinando `String`, números y otros datos.
+Construcción de mensajes combinando `String`, números y otros datos.
 
-Las actividades utilizan perfiles de música, fichas de vehículos y configuraciones de PC.
+**Clase principal:** `Actividad07CadenasTexto`  
+**Archivo:** `Actividad07CadenasTexto.java`
 
-[Descargar `07_CadenasTexto.java`](pathname:///java/ut3/07_CadenasTexto.java)
+<a
+  className="button button--primary"
+  href={useBaseUrl('/java/ut3/Actividad07CadenasTexto.java')}
+  download="Actividad07CadenasTexto.java"
+>
+  Descargar actividad
+</a>
+
 
 ## 8️⃣ Presupuesto para un festival
 
-Actividad más completa en la que tendrás que organizar diferentes gastos, utilizar una constante y calcular el coste total y el coste por persona.
+Actividad integrada con gastos, constantes, coste total y coste por persona.
 
-[Descargar `08_Festival.java`](pathname:///java/ut3/08_Festival.java)
+**Clase principal:** `Actividad08Festival`  
+**Archivo:** `Actividad08Festival.java`
+
+<a
+  className="button button--primary"
+  href={useBaseUrl('/java/ut3/Actividad08Festival.java')}
+  download="Actividad08Festival.java"
+>
+  Descargar actividad
+</a>
+
 
 ## 9️⃣ Taller de reparación
 
-Aplicaremos los contenidos de la unidad a un contexto relacionado con SMR: reparación de un equipo, mano de obra, piezas e IVA.
+Aplicación de variables, constantes y expresiones a un contexto relacionado con SMR.
 
-[Descargar `09_TallerReparacion.java`](pathname:///java/ut3/09_TallerReparacion.java)
+**Clase principal:** `Actividad09TallerReparacion`  
+**Archivo:** `Actividad09TallerReparacion.java`
+
+<a
+  className="button button--primary"
+  href={useBaseUrl('/java/ut3/Actividad09TallerReparacion.java')}
+  download="Actividad09TallerReparacion.java"
+>
+  Descargar actividad
+</a>
+
 
 ## 🔟 Reto final: mi presupuesto
 
-En el último archivo tendrás menos indicaciones.
+Reto con menos indicaciones en el que tendrás que decidir variables, tipos, constantes, operaciones y salida.
 
-Deberás decidir:
+**Clase principal:** `Actividad10RetoPresupuesto`  
+**Archivo:** `Actividad10RetoPresupuesto.java`
 
-- qué variables necesitas;
-- qué tipos de datos son adecuados;
-- qué valores deberían ser constantes;
-- qué operaciones debes realizar;
-- cómo presentar el resultado de forma clara.
+<a
+  className="button button--primary"
+  href={useBaseUrl('/java/ut3/Actividad10RetoPresupuesto.java')}
+  download="Actividad10RetoPresupuesto.java"
+>
+  Descargar reto final
+</a>
 
-[Descargar `10_RetoPresupuesto.java`](pathname:///java/ut3/10_RetoPresupuesto.java)
 
-:::tip[Importante]
 
-En estas actividades los datos están escritos directamente en el código.
 
-En la siguiente unidad aprenderemos a utilizar `Scanner` para que sea el usuario quien introduzca los datos durante la ejecución.
+En estas actividades los datos están escritos directamente en el código. En la siguiente unidad aprenderemos a utilizar `Scanner` para que sea el usuario quien introduzca los datos durante la ejecución.
 
-:::
+
