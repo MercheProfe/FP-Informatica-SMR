@@ -1,0 +1,8 @@
+{
+  "label": "UT4. Entrada de datos",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Entrada de datos a través de teclado. Scanner"
+  }
+}
