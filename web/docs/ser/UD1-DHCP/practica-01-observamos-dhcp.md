@@ -1,4 +1,5 @@
 ---
+sidebar_position: 12
 title: "Práctica 1. Observamos DHCP"
 ---
 

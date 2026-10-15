@@ -1,5 +1,5 @@
 ---
-sidebar_position: 12
+sidebar_position: 17
 title: "Práctica 5. DHCP en Packet Tracer"
 ---
 

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 15
+sidebar_position: 26
 title: "1.14. Diagnóstico de problemas DHCP"
 ---
 

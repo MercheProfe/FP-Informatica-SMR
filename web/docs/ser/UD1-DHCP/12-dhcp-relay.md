@@ -1,5 +1,5 @@
 ---
-sidebar_position: 13
+sidebar_position: 21
 title: "1.12. DHCP Relay"
 ---
 

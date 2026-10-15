@@ -1,5 +1,5 @@
 ---
-sidebar_position: 17
+sidebar_position: 19
 title: "Práctica 6. DHCP en un router Cisco"
 ---
 

@@ -1,4 +1,5 @@
 ---
+sidebar_position: 13
 title: "Práctica 2. Instalamos nuestro servidor DHCP"
 ---
 
