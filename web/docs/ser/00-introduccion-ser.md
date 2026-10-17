@@ -3,7 +3,7 @@ id: introduccion-ser
 title: Servicios en Red
 sidebar_label: "Introducción"
 sidebar_position: 1
-slug: /inicio
+slug: /ser/introduccion
 ---
 
 # Servicios en Red (SER)
