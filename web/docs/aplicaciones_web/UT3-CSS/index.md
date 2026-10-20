@@ -1,77 +1,77 @@
 ---
 sidebar_position: 0
-title: "Introducción - Elementos de la UT"
-description: Introducción y organización de la unidad de hojas de estilo CSS.
+title: UT3 · CSS
+description: Presentación, objetivos y organización de la unidad de CSS de Aplicaciones Web.
 ---
 
-# UT3 – CSS: diseño y estilo de páginas web
+# UT3 – CSS: diseño y presentación de páginas web
 
-En la unidad anterior aprendimos a crear la **estructura de una página web con HTML**. Ahora vamos a utilizar **CSS (Cascading Style Sheets)** para mejorar su presentación: colores, tipografías, espacios, imágenes de fondo y distribución de los elementos.
+En la unidad anterior aprendimos a crear páginas con **HTML**: textos, enlaces, imágenes y contenido multimedia. Ahora vamos a utilizar **CSS (Cascading Style Sheets)** para controlar su aspecto visual.
 
-Aprenderemos a pasar de una página con el aspecto predeterminado del navegador a una **web organizada, legible y visualmente atractiva**, separando el contenido HTML de sus estilos CSS.
-
-![HTML, CSS y JavaScript: pilares del desarrollo web](https://jamartinezf01.github.io/img/llmm/UT2/diagrama.png)
+Con CSS podremos elegir colores y tipografías, ajustar espacios, añadir fondos y organizar los elementos de una página. Trabajaremos sobre las páginas que ya conocemos, en lugar de empezar desde cero.
 
 ## 1️⃣ ¿Qué aprenderemos?
 
-Al finalizar esta unidad podrás:
+Al finalizar esta unidad serás capaz de:
 
-- Escribir reglas CSS y aplicarlas a elementos HTML mediante **selectores**.
-- Utilizar **colores, unidades, tipografías y fondos** para personalizar una página.
-- Comprender el **modelo de caja** y controlar tamaños, márgenes, rellenos y bordes.
-- Dar estilo a **listas y tablas** y reconocer selectores más específicos.
-- Incorporar **transformaciones y transiciones** sencillas.
-- Organizar elementos con **Flexbox y CSS Grid** y conocer otras técnicas de posicionamiento.
-- Mantener el HTML y el CSS en **archivos separados**, trabajando desde VS Code y comprobando los resultados en el navegador.
+- Comprender cómo se escriben las **reglas CSS** y cómo se enlaza una hoja de estilos a un documento HTML.
+- Utilizar **selectores, unidades de medida y propiedades personalizadas** para aplicar estilos.
+- Reconocer el **modelo de caja** y modificar tamaños, márgenes, rellenos, bordes y sombras.
+- Mejorar la presentación con **fuentes, imágenes de fondo y estilos de listas**.
+- Seleccionar elementos con mayor precisión y aplicar **efectos y transformaciones sencillos**.
+- Distribuir elementos mediante **Flexbox** y crear diseños con **CSS Grid**.
+- Diferenciar los principales tipos de **posicionamiento CSS**.
 
 ## 2️⃣ Organización de la unidad
 
-Los contenidos se desarrollarán progresivamente, partiendo de los estilos básicos hasta llegar a la maquetación de páginas completas.
+Seguiremos el orden de las presentaciones utilizadas en clase. Los apuntes se agrupan en seis apartados:
 
-| Apartado | Contenido | ¿Para qué sirve? |
+| Apartado | Contenidos principales | Aplicación práctica |
 |---|---|---|
-| **Introducción** | Qué es CSS y cómo se aplica | Relacionar HTML y CSS. |
-| **1. Fundamentos de CSS** | Sintaxis, selectores, propiedades, unidades y colores | Escribir y comprender reglas de estilo. |
-| **2. Modelo de caja** | `display`, dimensiones, `padding`, `margin`, bordes y sombras | Controlar el espacio que ocupa cada elemento. |
-| **3. Tipografías y fondos** | Fuentes, decoración del texto, iconos e imágenes de fondo | Mejorar la apariencia y legibilidad. |
-| **4. Listas y tablas** | Estilos para listas y tablas HTML | Presentar información de forma clara. |
-| **5. Selectores avanzados** | Combinadores, atributos, pseudoclases y pseudoelementos | Aplicar estilos con mayor precisión. |
-| **6. Transformaciones** | Desplazamientos, escalado, rotación y transiciones | Añadir efectos visuales sencillos. |
-| **7. Maquetación CSS** | Concepto de layout y `float` | Comprender cómo se distribuyen los bloques. |
-| **8. Flexbox** | Alineación, distribución y tamaño flexible | Crear filas, menús y conjuntos de tarjetas. |
-| **9. Grid y posicionamiento** | Rejillas CSS y posiciones `relative`, `absolute`, `fixed` y `sticky` | Construir diseños más completos. |
+| **3.1 Introducción y fundamentos CSS** | Sintaxis, formas de aplicar estilos, precedencia, selectores básicos, unidades y variables CSS. | Dar los primeros estilos a una página HTML. |
+| **3.2 Modelo de caja y apariencia** | `display`, dimensiones, `padding`, `margin`, bordes, sombras, fuentes, fondos, listas y tablas. | Mejorar el aspecto y el espaciado del contenido. |
+| **3.3 Selectores y efectos CSS** | Selectores de atributo, pseudoclases y transformaciones básicas. | Personalizar enlaces y añadir efectos sencillos. |
+| **3.4 Distribución con CSS** | `float` y Flexbox: contenedores, alineación, dirección y tamaño flexible. | Organizar menús y bloques de contenido. |
+| **3.5 Diseño con CSS Grid** | Filas, columnas, `fr`, `gap`, `repeat()`, `minmax()` y áreas. | Construir una distribución en cuadrícula. |
+| **3.6 Posicionamiento avanzado** | `position: relative`, `absolute`, `fixed`, `sticky` y `z-index`. | Colocar elementos en posiciones específicas. |
 
-:::info[Antes de continuar]
-Para trabajar los estilos de **tablas** y algunos selectores relacionados con **formularios**, incorporaremos los anexos de HTML necesarios cuando lleguemos a esos contenidos.
-:::
 
-## 3️⃣ Herramientas de trabajo
+## 3️⃣ Herramientas y archivos
 
-Utilizaremos **Visual Studio Code** para editar los archivos y un **navegador web** para visualizar los cambios.
+Utilizaremos **Visual Studio Code** para editar el código y un **navegador web** para comprobar los resultados.
 
-La organización habitual de nuestros ejercicios será:
+Una estructura sencilla de trabajo será:
 
 ```text
-mi-web/
+mi_primera_web/
 ├── index.html
 ├── css/
 │   └── estilos.css
 └── img/
-    └── imagen.jpg
+    └── ...
 ```
 
-En `index.html` enlazaremos la hoja de estilos externa desde la cabecera:
+En la cabecera del documento HTML enlazaremos la hoja de estilos:
 
 ```html
 <link rel="stylesheet" href="css/estilos.css">
 ```
 
-:::tip[Forma de trabajar]
-Escribe una regla CSS, guarda los archivos y actualiza la página en el navegador. Cambia un valor cada vez y observa su efecto antes de continuar.
-:::
+De esta manera, el **HTML contiene la estructura y el contenido**, mientras que el **CSS define su presentación**.
 
 ## 4️⃣ ¿Cómo trabajaremos?
 
-Comenzaremos con ejemplos pequeños para comprender cada propiedad. Después combinaremos varias reglas sobre una misma página y utilizaremos **Flexbox y Grid** para construir diseños más organizados.
+Comenzaremos con reglas pequeñas para observar qué cambia en el navegador. Después aplicaremos los conceptos a **dos ejemplos basados en las actividades de `mi_primera_web`**, que ya habíamos desarrollado hasta el contenido multimedia.
 
-El objetivo no es memorizar todas las propiedades CSS, sino **entender cómo funcionan, saber localizar las que necesitamos y utilizarlas correctamente** en nuestros proyectos web.
+- **Ejemplo 1. Mi primera web personal:** colores, tipografías, tamaños, márgenes, bordes, fondos y sombras.
+- **Ejemplo 2. Mi web de aficiones:** organización de secciones, menús y otros elementos mediante Flexbox y, cuando corresponda, Grid.
+
+Cada ejemplo evolucionará a medida que avancemos en los apuntes y las presentaciones.
+
+:::tip[Consejo de trabajo]
+Después de modificar una regla CSS, guarda los archivos y actualiza la página en el navegador. Cambia una propiedad cada vez para comprender su efecto.
+:::
+
+:::info[Conocimientos previos]
+Partimos de las etiquetas HTML que ya hemos estudiado. Cuando necesitemos utilizar tablas u otras estructuras nuevas, las introduciremos antes de aplicarles estilos.
+:::
