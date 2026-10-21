@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: Introducción y funcionamiento de DNS
+title: "3.1. Introducción y funcionamiento de DNS"
 description: Resolución de nombres, jerarquía DNS, consultas y caché.
 ---
 
@@ -45,10 +45,15 @@ El archivo `hosts` no se actualiza automáticamente en los demás equipos. Por e
 DNS organiza los nombres en una estructura de árbol, desde la **raíz** hasta los equipos o servicios concretos.
 
 ```text
-.                         Raíz
-└── com                   Dominio de nivel superior (TLD)
-    └── ejemplo           Dominio
-        └── www           Nombre de host o servicio
+                         . (raíz)
+                             │
+                            com            ← TLD
+                             │
+                          ejemplo          ← dominio
+                             │
+                            www            ← host
+
+Nombre completo: www.ejemplo.com.
 ```
 
 **`www.ejemplo.com`** es un **FQDN (Fully Qualified Domain Name)**: identifica un nombre dentro de la jerarquía DNS. Su representación absoluta termina en un punto (`www.ejemplo.com.`), aunque normalmente se omite al escribirlo.
@@ -67,7 +72,16 @@ Un **dominio** y una **zona** no son necesariamente lo mismo: un dominio puede d
 Cuando un usuario escribe una dirección web, su equipo necesita obtener la IP asociada al nombre.
 
 ```text
-Cliente → Servidor DNS configurado → Respuesta con IP → Conexión al servidor web
+┌───────────────┐  1. ¿IP de www.ejemplo.com?  ┌─────────────────┐
+│ Cliente       │ ────────────────────────────► │ Resolvedor DNS  │
+│ (navegador)   │ ◄──────────────────────────── │ configurado     │
+└──────┬────────┘  2. Respuesta: dirección IP   └────────┬────────┘
+       │                                                  │
+       │ 3. Conexión al servidor web                      │ Si no tiene
+       ▼                                                  │ la respuesta:
+┌───────────────┐                                         ▼
+│ Servidor web  │                                  Otros servidores
+└───────────────┘                                  DNS (si procede)
 ```
 
 Si el servidor DNS no conoce la respuesta, puede consultar otros servidores o reenviar la petición, según su configuración.
@@ -78,6 +92,16 @@ Si el servidor DNS no conoce la respuesta, puede consultar otros servidores o re
 | Iterativa | Un servidor puede responder con la información disponible o indicar otros servidores a los que consultar |
 
 En Internet intervienen servidores **raíz**, de **dominios de nivel superior (TLD)** y **autoritativos**. El cliente normalmente consulta a un resolvedor DNS, que realiza las consultas necesarias.
+
+```text
+Resolvedor DNS
+     │
+     ├──► Raíz (.)                 → indica los DNS de .com
+     ├──► Servidor TLD (.com)      → indica los DNS de ejemplo.com
+     └──► DNS autoritativo        → devuelve el registro solicitado
+```
+
+*Esquema simplificado de una resolución sin respuesta previa en caché; las consultas reales pueden variar.*
 
 ## 5️⃣ Caché DNS y TTL
 
@@ -90,6 +114,14 @@ Los servidores DNS y los equipos pueden almacenar temporalmente respuestas para 
 
 :::tip[Ejemplo]
 Si un registro tiene un TTL de `300`, una respuesta almacenada puede reutilizarse durante un máximo inicial de **5 minutos**. El tiempo restante disminuye mientras permanece en caché.
+
+```text
+Consulta inicial          2 minutos después          TTL agotado
+      │                           │                         │
+      ▼                           ▼                         ▼
+Se guarda en caché     Se usa la respuesta          Se necesita
+     TTL 300 s             TTL 180 s              consultar de nuevo
+```
 :::
 
 ## 6️⃣ Primera comprobación
