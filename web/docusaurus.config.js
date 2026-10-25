@@ -14,6 +14,14 @@ const config = {
   tagline: 'Apuntes y recursos para Sistemas Microinformáticos y Redes',
   favicon: 'img/faviconp.png',
 
+   // Soporte para diagramas Mermaid
+  markdown: {
+    mermaid: true,
+  },
+
+  themes: ['@docusaurus/theme-mermaid'],
+
+
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
